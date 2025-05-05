@@ -1,0 +1,11 @@
+#+title: Chapter 3 - Arithmetic Types
+#+options: toc:nil
+
+* Two Kinds - Integers and Floats
+- Arithmetic operations in digital systems doesn't produce same result as in traditional maths
+** Integers
+- Integer types except char, signed char and unsigned char may contain unused bits, called /padding/
+- Value including /padding/ is called /width/
+  *** /Integer Ranges/
+      - Representable values - Values that can be represented based on the number of bits available. if not compiler may or may not convert them to representable
+      - <limits.h> can be used to assign limits as it may vary system to system
