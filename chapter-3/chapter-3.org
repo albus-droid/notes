@@ -6,6 +6,27 @@
 ** Integers
 - Integer types except char, signed char and unsigned char may contain unused bits, called /padding/
 - Value including /padding/ is called /width/
-  *** /Integer Ranges/
-      - Representable values - Values that can be represented based on the number of bits available. if not compiler may or may not convert them to representable
-      - <limits.h> can be used to assign limits as it may vary system to system
+  - Integer Ranges
+    - Representable values - Values that can be represented based on the number of bits available. if not compiler may or may not convert them to representable
+    - <limits.h> can be used to assign limits as it may vary system to system
+  - Integer Declarations
+    - default is **signed**
+    - example code
+      #+BEGIN_SRC c
+      unsigned int ui; // unsigned is required
+      unsigned ui; // int can be omitted
+      unsigned long long ull2; // int can be omitted
+      unsigned char uc; // unsigned is required
+      signed char c; // signed is required
+      int i; // signed can be omitted
+      long long int sll; //signed can be omitted
+      long long sll2; // signed and int can be omitted
+      #+END_SRC
+      - Unsigned Integers
+        - start at 0 , and upper bound is greater than the corresponding signed
+        - can be used for counting larger, non-negative quantities
+        - pure binary, no offset, values can be counted from 2^{0} to 2^{N}-1, where N is the width
+        - no sign bit, more precision
+        - Wraparound
+          - when going beyond the boundary, the value reduces to modulo 2^{N}, this is an expected condition
+          -
