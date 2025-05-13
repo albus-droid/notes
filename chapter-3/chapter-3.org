@@ -29,4 +29,21 @@
         - no sign bit, more precision
         - Wraparound
           - when going beyond the boundary, the value reduces to modulo 2^{N}, this is an expected condition
-          - so unsigned can never be a 0, /example in listing-3-1.c/ 
+          - so unsigned can never be a 0, /example in listing-3-1.c/
+      - Signed Integers
+        - Every unsigned type except for bool, has a signed counterpart
+        - Representation
+          - sign and magnitude
+          - one's compliment
+          - two's compliment
+            - for width N, value starts from -2^{N-1} to 2^{N-1}-1s
+  - Integer Overflow
+    - Occurs when a signed integer operation cannot be represented
+    - Compared to wraparound this is not a defined behaviour
+    - abs(INT_MIN) function will return an error because there is no representation
+  - Integer Constants
+    - Decimal -21
+    - Octal 0777
+    - Hex 0xABC2323
+    - Bin 0b01001
+** Floating point
