@@ -1,0 +1,24 @@
+#+TITLE: WEEK-1
+
+*** Main Points for successful learning
+- Make a git repository for each weeks notes
+- Do the exercises
+- Run through the video
+- Do the examples in the video
+
+*** Trivia
+**** Some bash commands I found really helpful
+1. Last argument of previous command
+#+BEGIN_SRC bash
+/command/ !$
+#+END_SRC
+
+2. All args of previous command
+#+BEGIN_SRC bash
+/command/ !*
+#+END_SRC
+
+3. Word count of all .c and .h files in a folder
+#+BEGIN_SRC bash
+wc -l *.[ch]
+#+END_SRC
