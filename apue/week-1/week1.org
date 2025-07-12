@@ -6,6 +6,22 @@
 - Run through the video
 - Do the examples in the video
 
+*** UNIX History
+- C developed by Dennis Ritchie
+- UNIX was developed by Ken Thompson and Dennis Ritchie *1969*
+- Initially it was written in ASM, but later ported to C *1973*
+- Later Develops BSD at UC Berkely *1975*
+- Two emerges - *BSD* and *System-V*
+- BSD - TCP/IP Stack and NFS
+- Linus Torvlads develops the Linux Kernel for GNUa *1991*
+- A complete OS is born *GNU/Linux*!!!
+- Why did Linux get so popular then? Maybe due to the lawsuits happening at the time because of BSD software
+- Solaris - ZFS, dtrace and even containers
+
+*** Licenses
+- BSD: Make modifications, can be released as closed-source, but just to have to credit the creators
+- GPL: Make modifications, can only be released under the same license, so only open-source and not closed-source
+
 *** Trivia
 **** Some bash commands I found really helpful
 	1. Last argument of previous command
