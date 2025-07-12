@@ -8,17 +8,17 @@
 
 *** Trivia
 **** Some bash commands I found really helpful
-1. Last argument of previous command
-#+BEGIN_SRC bash
-/command/ !$
-#+END_SRC
+	1. Last argument of previous command
+		#+BEGIN_SRC bash
+		/command/ !$
+		#+END_SRC
 
-2. All args of previous command
-#+BEGIN_SRC bash
-/command/ !*
-#+END_SRC
+	2. All args of previous command
+		#+BEGIN_SRC bash
+		/command/ !*
+		#+END_SRC
 
-3. Word count of all .c and .h files in a folder
-#+BEGIN_SRC bash
-wc -l *.[ch]
-#+END_SRC
+	3. Word count of all .c and .h files in a folder
+		#+BEGIN_SRC bash
+		wc -l *.[ch]
+		#+END_SRC
