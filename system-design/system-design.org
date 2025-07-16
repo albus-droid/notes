@@ -1,0 +1,31 @@
+#+title: System Design Notes
+
+* Computers only understand 0 and 1
+This needs to be stored somewhere
+** They can be stored in an HDD or an SSD ( a faster option )
+** Another way to store it is in the RAM or the primary memory
+*** Volatile - The data wont be persisted
+** Cache
+*** Faster than RAM, there is L1, L2 and L3
+
+* High Level Architecture of a Production-Ready Application
+1. CI/CD pipeline
+   - Ensures the code goes through a series of tests and checks
+   - GH action and Jenkins
+2. Load Balancer
+   - Ensures the application servs many users in situations of high traffic
+3. Storage
+4. Logging and Monitoring
+   - Sentry or PM2
+5. Alerting Service
+
+* Good Design Principles
+1. Scalability
+2. Maintainability
+3. Efficiency
+4. Reliability
+
+* Three Key Elements of Data Storage
+1. Moving Data
+2. Storing Data
+3. Transforming Data
